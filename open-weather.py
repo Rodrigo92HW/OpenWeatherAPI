@@ -6,6 +6,6 @@ City = input('Ciudad= ')
 
 url = API + City
 
-json_data = requests.get(url).json()
+DATA = requests.get(url).json()
 
-print("Datos actuales del clima:",json_data)
+print("Datos actuales del clima:",DATA)
